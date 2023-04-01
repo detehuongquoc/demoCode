@@ -1,0 +1,20 @@
+/* Style the accordion header */
+.accordion-header {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  padding: 10px;
+}
+
+/* Style the accordion content */
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
+
+/* Show the active accordion content */
+.active .accordion-content {
+  display: block;
+}
