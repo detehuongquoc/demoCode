@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+#carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+#carousel img {
+    width: 400px;
+    height: 300px;   
+    opacity: 0;
+}
+#carousel  button{
+    margin: 15px;
+    cursor: pointer;
+}
+#carousel img.active {
+    opacity:1;
+    transition:opacity 0.5s ease;
+}
